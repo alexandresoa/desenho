@@ -1,15 +1,13 @@
-let x
+let pencil, eraser, quadrado, scissors
 
 function setup() {
     createCanvas(600, 400)
     strokeWeight(4)
-    stroke(5)
+    stroke(0)
   }
   
   function draw() {
     if(mouseIsPressed) {
-        stroke(255, 0, 255)
-        fill(0, 255, 0)
-        ellipse(mouseX, mouseY, 30, 30)
+        point(mouseX, mouseY)
     }
   }

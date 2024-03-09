@@ -1,7 +1,5 @@
-const pencil = document.getElementById('pencil')
-
-console.log(pencil)
-
-pencil.addEventListener('click', () => {
-    console.log('teste')
-})
+const pencilButton = document.getElementById('pencil')
+const eraserButton = document.getElementById('eraser')
+const squareButton = document.getElementById('quadrado')
+const scissorsButton = document.getElementById('scissors')
+const buttons = document.querySelectorAll('button')
