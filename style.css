@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+canvas {
+    border: 2px solid purple;
+}
+
+.menu {
+    width: 10%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu i {
+    font-size: 2rem;
+}
